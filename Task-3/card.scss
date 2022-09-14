@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+$primary: #556c2e;
+$secondary: #333333;
+.card-container{
+    border:1px black solid;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 220px;
+    padding: 10px;
+    .card-title{
+        font-size: 20px;
+        color: black;
+        margin-bottom: 16px;
+        font-weight: bolder;
+    }
+    .card-text{
+        font-size: 14px;
+        color: black;
+        font-weight: normal;
+        margin-bottom: 16px;
+    }
+    button{
+        float: right;
+        height: 40px;
+        border-radius: 5px;
+        color: white;
+        border:none;
+        &.primary{
+            background-color: $primary;
+        }
+        &.secondary{
+            background-color: $secondary;
+            margin-left: 5px;
+        }
+
+    }
+    
+}

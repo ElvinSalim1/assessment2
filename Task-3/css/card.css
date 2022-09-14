@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card-container {
+  border: 1px black solid;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 220px;
+  padding: 10px;
+}
+.card-container .card-title {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 16px;
+  font-weight: bolder;
+}
+.card-container .card-text {
+  font-size: 14px;
+  color: black;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+.card-container button {
+  float: right;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+.card-container button.primary {
+  background-color: #556c2e;
+}
+.card-container button.secondary {
+  background-color: #333333;
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=card.css.map */
